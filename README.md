@@ -41,7 +41,7 @@ It generates synthetic employee data, uploads it to Cloud Storage, transforms an
 ## ETL Pipeline Flow
 
 ```
-
+https://github.com/vvn-dza/end-to-end-ETL/blob/8e685db9bc790c9cb1762d5857b8f185993f9ee8/Images/architecture.png
 ```
 
 ---
