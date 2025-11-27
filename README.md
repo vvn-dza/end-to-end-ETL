@@ -41,7 +41,7 @@ It generates synthetic employee data, uploads it to Cloud Storage, transforms an
 ## ETL Pipeline Flow
 
 ```
-https://github.com/vvn-dza/end-to-end-ETL/blob/8e685db9bc790c9cb1762d5857b8f185993f9ee8/Images/architecture.png
+![image alt](https://github.com/vvn-dza/end-to-end-ETL/blob/8e685db9bc790c9cb1762d5857b8f185993f9ee8/Images/architecture.png)
 ```
 
 ---
@@ -79,29 +79,3 @@ https://github.com/vvn-dza/end-to-end-ETL/blob/8e685db9bc790c9cb1762d5857b8f1859
    The Airflow DAG automates extraction and triggers the Data Fusion pipeline daily.
 
 ---
-
-## Running the Extraction Script
-
-```bash
-python extract.py
-```
-
----
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/end-to-end-etl.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Authenticate Google Cloud credentials.
-
----
-
-## License
-
-This project is open source and free to use.
